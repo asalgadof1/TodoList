@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  text-align: left;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.resumen, .lista-tareas {
+  width: 45%;
+}
+
+.lista-tareas {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista-tareas h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: #e53935;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
